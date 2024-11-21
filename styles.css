@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+font-family: "BBSesque";
+src: url("BBSesque.ttf");
+}
+
+  body {
+    height: 100vh;
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+  }
+
+  iframe {
+    position: fixed;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 45%;
+    height: 53%;
+    border: 0;
+    border-radius: 3px;
+  }
+
+  a {
+    position: absolute;
+    display: block;
+    background: transparent; 
+    color: transparent; 
+  }
+
+  a.link1 {
+    top: 93px;
+    left: 12px;
+    width: 145px;
+    height: 456px;
+  }
+
+  a.link2 {
+    top: 613px;
+    left: 39px;
+    width: 222px;
+    height: 255px;
+  }
+
+  a.link3 {
+    top: 109px;
+    left: 1308px;
+    width: 156px;
+    height: 39px;
+  }
+
+  /* The link4 is the credit of the template, please dont remove */
+  a.link4 {
+    top: 733px;
+    left: 1484px;
+    width: 169px;
+    height: 185px;
+  }
+
+  a.link5 {
+    top: 582px;
+    left: 1365px;
+    width: 221px;
+    height: 141px;
+  }
+
+  a.link6 {
+    top: 222px;
+    left: 1464px;
+    width: 210px;
+    height: 250px;
+  }
+
+  a.link7 {
+    top: 11px;
+    left: 27px;
+    width: 123px;
+    height: 60px;
+  }
+
+  a.link8 {
+    top: 73px;
+    left: 819px;
+    width: 28px;
+    height: 27px;
+  }
+
+
+  .tooltip {
+    position: absolute;
+    background-color: #1700d1;
+    color: #fff;
+    font-family: BBSesque;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1000;
+    visibility: hidden; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+
+  a:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Hides <audio> element */
+      #audioPlayer {
+    display: none;
+  }

@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: "BBSesque";
+    src: url("BBSesque.ttf");
+  }
+  
+      body {
+        margin: 0;
+        padding: 10px;
+        background-color: #1700D1; /* Define o fundo azul */
+      }
+  
+      h1 {
+          font-family: BBSesque;
+          color: white; /* Texto branco para contraste */
+          font-size: 40px;
+          text-align: center;
+      }
+  
+      p {
+          font-family: BBSesque;
+          color: white; /* Texto branco para contraste */
+          font-size: 16px;
+          text-align: justify;
+      }
+  
+      #p1 {
+          font-family: BBSesque;
+          color: yellow; /* Texto branco para contraste */
+          font-size: 16px;
+          text-align: justify;
+      }
+  
+      #p2 {
+          font-family: BBSesque;
+          color: white; /* Texto branco para contraste */
+          font-size: 16px;
+          text-align: center;
+      }    
+  
+  
+      img {
+        display: block; /* Necessário para usar margin auto */
+        margin: auto; /* Centraliza horizontalmente */
+      }
+  
+      /* ===== Scrollbar CSS ===== */
+    /* Firefox */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #ffffff #1700d1;
+    }
+  
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+      width: 8px;
+    }
+  
+    *::-webkit-scrollbar-track {
+      background: #1700d1;
+    }
+  
+    *::-webkit-scrollbar-thumb {
+      background-color: #ffffff;
+      border-radius: 7px;
+      border: 7px solid #ffffff;
+    }
+  
+    /* ===== Link States ===== */
+    a {
+        color: white; /* Cor normal */
+        text-decoration: none; /* Remove sublinhado padrão */
+      }
+  
+      a:hover {
+        color: yellow; /* Cor quando o mouse passa por cima */
+        text-decoration: underline; /* Sublinhado ao passar o mouse */
+        background-color: black;
+      }
+  
+      a:visited {
+        color: white; /* Cor do link visitado */
+        text-decoration: double;
+      }
+  
+      a:active {
+        color: yellow; /* Cor ao clicar no link */
+      }
+  
+      li {
+        color: white; /* Cor do texto */
+        border: none; /* Remove bordas */
+        border-radius: 5px; /* Bordas arredondadas */
+        font-size: 16px; /* Tamanho do texto */
+      }
